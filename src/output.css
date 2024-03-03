@@ -1773,3 +1773,18 @@ video {
 .mt-\[45px\] {
   margin-top: 45px;
 }
+
+.px-20 {
+  padding-left: 5rem/* 80px */;
+  padding-right: 5rem/* 80px */;
+}
+.py-12 {
+  padding-top: 3rem/* 48px */;
+  padding-bottom: 3rem/* 48px */;
+}
+@media (min-width: 640px) {
+  .sm\:py-32 {
+      padding-top: 8rem/* 128px */;
+      padding-bottom: 8rem/* 128px */;
+  }
+}
