@@ -2139,3 +2139,15 @@ video {
 .max-w-\[408px\] {
   max-width: 408px;
 }
+.w-\[500px\] {
+  width: 500px;
+}
+.pt-3 {
+  padding-top: 0.75rem/* 12px */;
+}
+.pr-2 {
+  padding-right: 0.5rem/* 8px */;
+}
+.pt-\[60px\] {
+  padding-top: 60px;
+}
