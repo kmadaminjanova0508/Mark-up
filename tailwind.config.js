@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{html,js}"
   ],
   theme: {
-    extend: {},
+    extend: {
+    fontFamily: {
+     'Vkbold' : ['vkbold'],
+     'Vkthin' : ['vkthin'],
+     'Vkbtn' : ['vkbtn'],
+     'Vkmid' : ['vkmid'],
+     'Vkreg' : ['vkreg'],
+     'Vklog' : ['login'],
+    }
+    },
   },
   plugins: [],
 }
